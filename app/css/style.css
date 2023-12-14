@@ -1,0 +1,134 @@
+/* style.css */
+* {
+    margin:0;
+    padding: 0;
+}
+footer{
+    background-color: #F26B00;
+    min-height: 180px;
+    color:#FFFFFF;
+    padding:40px;
+}
+header{
+    background-color: #F26B00 !important;
+}
+nav{
+    min-height: 90px;
+    margin-bottom: 0 !important;
+}
+body{
+    font-family: "Poppins", sans-serif !important;
+    font-size: 17px;
+}
+p{
+    font-weight: lighter;
+}
+
+#main{
+    padding: 60px; 
+}
+#main img  {
+    max-height: 400px;
+}
+#main img:hover{
+    opacity: 0.5;
+    display: inline-block;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    transform: scale(1.09);
+    cursor: pointer;
+}
+#middle{
+    margin: 30px 0;
+}
+#logo{
+    margin:20px 10px;
+    width: 170px;
+}
+#navegar{
+    margin: 50px 0;
+}
+#sobre{
+    margin: 50px 0; 
+}
+#sobre p{
+    text-align: justify;
+    color:#FFFFFF;
+    font-size: 18px;
+    line-height: 1.8;
+    padding-top:20px;
+}
+#blast{
+    margin: 50px 0;
+}
+#name{
+    color: #FFFFFF;
+}
+#button{
+    background-color: #F26B00;
+    color: #FFFFFF;
+}
+#button:hover, #button-two:hover{
+    transform: scale(1.11);
+}
+#button-two{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+#apresentation{
+    color: #000000;
+}
+#profile{  
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 4px;
+    line-height: 1.42857143;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+#conteudo{
+    background-color: #000000;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 30px;
+    color: #FFFFFF;
+    min-height: 300px;
+}
+#conteudo-two{
+    background-color: #F26B00;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 30px;
+    color: #FFFFFF;
+    min-height: 300px;
+}
+
+.lista_footer{
+    margin-top:35px;
+}
+.lista_footer a{
+    color: #FFFFFF;
+}
+.link_menu{
+    margin-top:20px;
+}
+.link_menu a{
+    color:#FFFFFF !important;
+    padding:10px;
+}
+.link_menu a:hover{
+    background-color:#000000 !important;
+    border-radius: 6px;
+}
+.center {
+    text-align: center
+}
+.ifce{
+    color: #000000;
+    text-decoration: underline;
+}
+.ifce:hover{
+    color: #F26B00;
+}
